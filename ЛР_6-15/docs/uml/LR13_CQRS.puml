@@ -1,0 +1,10 @@
+@startuml
+class AddScoreCommand { +Points : int }
+class ScoreCommandHandler { +Handle(command)
++CurrentScore }
+class ScoreQueryService { +GetCurrentScore() }
+AddScoreCommand --> ScoreCommandHandler : command
+ScoreQueryService --> ScoreCommandHandler : reads
+note right of ScoreCommandHandler : Write side
+note right of ScoreQueryService : Read side
+@enduml

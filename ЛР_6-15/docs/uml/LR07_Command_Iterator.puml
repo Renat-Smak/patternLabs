@@ -1,0 +1,14 @@
+@startuml
+interface IGameCommand { +Execute(game) }
+class TurnCommand
+class MoveCommand
+class CommandQueue
+class SnakeIterator { -body : IList<Point>
+-index : int
++HasNext
++Next() }
+IGameCommand <|.. TurnCommand
+IGameCommand <|.. MoveCommand
+CommandQueue o--> IGameCommand
+SnakeIterator --> Point
+@enduml

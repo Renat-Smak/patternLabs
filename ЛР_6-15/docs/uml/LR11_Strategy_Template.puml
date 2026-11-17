@@ -1,0 +1,13 @@
+@startuml
+interface IMovementStrategy { +Next(head, direction, width, height) }
+class BoundedMovement
+class WrapMovement
+abstract class GameLoopTemplate { +RunOneFrame()
+#ReadInput()
+#Update()
+#Render() }
+class DemoGameLoop
+IMovementStrategy <|.. BoundedMovement
+IMovementStrategy <|.. WrapMovement
+GameLoopTemplate <|-- DemoGameLoop
+@enduml

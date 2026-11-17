@@ -1,0 +1,14 @@
+@startuml
+interface IGameComponent { +OnScoreChanged(score) }
+class ScoreLabel
+class SoundNotifier
+class GameMediator { +Register(component)
++NotifyScoreChanged(score) }
+class GameMemento
+class GameSnapshot { +Save(game)
++Restore(game, memento) }
+IGameComponent <|.. ScoreLabel
+IGameComponent <|.. SoundNotifier
+GameMediator o--> IGameComponent
+GameSnapshot ..> GameMemento
+@enduml

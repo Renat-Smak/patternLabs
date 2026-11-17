@@ -1,0 +1,9 @@
+@startuml
+class PlayerRecord { +PlayerName
++BestScore }
+interface IRecordRepository { +Save(record)
++Find(name) }
+class InMemoryRecordRepository
+IRecordRepository <|.. InMemoryRecordRepository
+InMemoryRecordRepository o--> PlayerRecord
+@enduml

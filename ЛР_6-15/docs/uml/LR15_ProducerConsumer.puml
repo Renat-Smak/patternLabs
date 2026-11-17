@@ -1,0 +1,10 @@
+@startuml
+class BackgroundTaskQueue { -tasks : BlockingCollection<Action>
+-worker : Task
++Produce(action)
++Stop() }
+class Producer
+class Consumer
+Producer --> BackgroundTaskQueue : adds task
+BackgroundTaskQueue --> Consumer : consumes task
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+abstract class CollisionHandler { -next : CollisionHandler
++SetNext(handler)
++Handle(game, point)
+#Check() }
+class WallCollisionHandler
+class BodyCollisionHandler
+CollisionHandler <|-- WallCollisionHandler
+CollisionHandler <|-- BodyCollisionHandler
+CollisionHandler --> CollisionHandler : next
+@enduml

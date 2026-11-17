@@ -1,0 +1,10 @@
+@startuml
+interface ISettingsStore { +Load() : GameSettings
++Save(settings) }
+class SettingsStore
+class SettingsProxy { -realStore : ISettingsStore
+-canWrite : bool }
+ISettingsStore <|.. SettingsStore
+ISettingsStore <|.. SettingsProxy
+SettingsProxy --> ISettingsStore : delegates
+@enduml

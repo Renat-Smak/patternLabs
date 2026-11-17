@@ -1,0 +1,19 @@
+@startuml
+interface IGameObserver { +Update(message) }
+class ConsoleObserver
+class GameEventSource { +Subscribe(observer)
++Notify(message) }
+interface IGameState { +Handle(game)
++Name }
+class PlayingState
+class PausedState
+class GameOverState
+class GameStateContext { +SetState(state)
++Request(game) }
+IGameObserver <|.. ConsoleObserver
+GameEventSource o--> IGameObserver
+IGameState <|.. PlayingState
+IGameState <|.. PausedState
+IGameState <|.. GameOverState
+GameStateContext --> IGameState
+@enduml

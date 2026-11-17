@@ -1,0 +1,8 @@
+@startuml
+class SnakeModel { +Move(direction) }
+class SnakeView { +Render(model) }
+class SnakeController { +HandleInput(direction) }
+SnakeController --> SnakeModel : updates
+SnakeController --> SnakeView : refreshes
+SnakeView --> SnakeModel : reads
+@enduml
