@@ -1,0 +1,7 @@
+C:\Users\seses\Downloads\Aqualyzer-main\Aqualyzer-main\Lr5\Lr5\Lr5\bin\Debug\Lr5.exe.config
+C:\Users\seses\Downloads\Aqualyzer-main\Aqualyzer-main\Lr5\Lr5\Lr5\bin\Debug\Lr5.exe
+C:\Users\seses\Downloads\Aqualyzer-main\Aqualyzer-main\Lr5\Lr5\Lr5\bin\Debug\Lr5.pdb
+C:\Users\seses\Downloads\Aqualyzer-main\Aqualyzer-main\Lr5\Lr5\Lr5\obj\Debug\Lr5.csproj.AssemblyReference.cache
+C:\Users\seses\Downloads\Aqualyzer-main\Aqualyzer-main\Lr5\Lr5\Lr5\obj\Debug\Lr5.csproj.CoreCompileInputs.cache
+C:\Users\seses\Downloads\Aqualyzer-main\Aqualyzer-main\Lr5\Lr5\Lr5\obj\Debug\Lr5.exe
+C:\Users\seses\Downloads\Aqualyzer-main\Aqualyzer-main\Lr5\Lr5\Lr5\obj\Debug\Lr5.pdb
