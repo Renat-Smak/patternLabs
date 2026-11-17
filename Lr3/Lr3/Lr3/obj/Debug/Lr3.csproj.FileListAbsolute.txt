@@ -1,0 +1,7 @@
+C:\Users\seses\Downloads\Aqualyzer-main\Aqualyzer-main\Lr3\Lr3\Lr3\bin\Debug\Lr3.exe.config
+C:\Users\seses\Downloads\Aqualyzer-main\Aqualyzer-main\Lr3\Lr3\Lr3\bin\Debug\Lr3.exe
+C:\Users\seses\Downloads\Aqualyzer-main\Aqualyzer-main\Lr3\Lr3\Lr3\bin\Debug\Lr3.pdb
+C:\Users\seses\Downloads\Aqualyzer-main\Aqualyzer-main\Lr3\Lr3\Lr3\obj\Debug\Lr3.csproj.AssemblyReference.cache
+C:\Users\seses\Downloads\Aqualyzer-main\Aqualyzer-main\Lr3\Lr3\Lr3\obj\Debug\Lr3.csproj.CoreCompileInputs.cache
+C:\Users\seses\Downloads\Aqualyzer-main\Aqualyzer-main\Lr3\Lr3\Lr3\obj\Debug\Lr3.exe
+C:\Users\seses\Downloads\Aqualyzer-main\Aqualyzer-main\Lr3\Lr3\Lr3\obj\Debug\Lr3.pdb
